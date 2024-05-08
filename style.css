@@ -1,0 +1,45 @@
+/* Curtis Lee
+   Curtis@Curtis.tw
+   May 8th, 2024
+*/
+
+h2 {
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+.form_send_email {
+  margin-top: 4em;
+}
+
+.btn_send_email {
+  padding: 0.5em 3em;
+  color: white;
+  background-color: #1a73e8;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_send_email:hover {
+  background-color: #185abc;
+}
+
+table.mailer_setting {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+table.mailer_setting,
+table.mailer_setting tr,
+table.mailer_setting td {
+  padding: 0.2em 1.2em;
+  border: 1px solid #d93025;
+}
+
+table.mailer_setting tr > td:first-of-type {
+  background-color: #ffcdd2;
+}
